@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    color: #333;
+    margin-top: 20px;
+}
+
+#todo-form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#todo-form input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#todo-form input[type="submit"] {
+    width: 25%;
+    padding: 10px;
+    background: #28a745;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+#todo-form input[type="submit"]:hover {
+    background: #218838;
+}
+
+#todo-list-items {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    width: 300px;
+}
+
+#todo-list-items .list-item {
+    background: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#todo-list-items .list-item.completed {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+
+#todo-list-items .del-btn {
+    background: #dc3545;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin-left: 10px;
+}
+
+#todo-list-items .del-btn:hover {
+    background: #c82333;
+}
+
+#todo-list-items input[type="checkbox"] {
+    margin-right: 10px;
+}
