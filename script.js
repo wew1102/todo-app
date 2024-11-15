@@ -88,20 +88,3 @@ window.addEventListener('load', () => {
     todos.forEach(todo => addTodoToList(todo));
 });
 
-
-
-
- // function call
-// addTwoNums(1, 2); //hoisting
-
-//function decalre
-// function addTwoNums(a, b) {
-    //     console.log (a + b);
-    // }
-
-    
-
-//function decalre
-// const addTwoNumbers = (a, b) => {
-//     console.log(a + b);
-// }
